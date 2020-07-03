@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Componentes">
+   <children>
+      <Label depthTest="DISABLE" layoutX="39.0" layoutY="89.0" text="COMPONENTES DE LAS MATRICES" textAlignment="CENTER">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+
+      <Label depthTest="DISABLE" layoutX="16.0" layoutY="781.0" prefHeight="0.0" prefWidth="261.0" text="MARIO MUÑOZ">
+         <font>
+            <Font size="7.0" />
+         </font>
+      </Label>
+
+       <Button id="btn_back" defaultButton="true" layoutX="238.0" layoutY="731.0" mnemonicParsing="false" onAction="#btn_back" prefHeight="50.0" prefWidth="125.0" style="-fx-background-color: #D80F4F;" text="REGRESAR" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+           <font>
+               <Font name="bauhaus 93" size="21.0" />
+           </font>
+       </Button>
+
+
+       <Button id="d" layoutX="63.0" layoutY="274.0" mnemonicParsing="false" onAction="#d" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #D80F4F;" text="- D">
+           <font>
+               <Font size="25.0" />
+           </font>
+       </Button>
+       <Button id="k" layoutX="162.0" layoutY="274.0" mnemonicParsing="false" onAction="#k" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #D80F4F;" text="K">
+           <font>
+               <Font size="25.0" />
+           </font>
+       </Button>
+       <Button id="l" layoutX="63.0" layoutY="404.0" mnemonicParsing="false" onAction="#l" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #D80F4F;" text="L">
+           <font>
+               <Font size="25.0" />
+           </font>
+       </Button>
+       <Button id="h" layoutX="162.0" layoutY="404.0" mnemonicParsing="false" onAction="#h" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #D80F4F;" text="- H">
+           <font>
+               <Font size="25.0" />
+           </font>
+       </Button>
+       <Button id="a" layoutX="287.0" layoutY="275.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #D80F4F;" text="A">
+           <font>
+               <Font size="25.0" />
+           </font>
+       </Button>
+       <Button id="b" layoutX="287.0" layoutY="405.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #D80F4F;" text="B">
+           <font>
+               <Font size="25.0" />
+           </font>
+       </Button>
+       <Button id="c" layoutX="456.0" layoutY="275.0" mnemonicParsing="false" onAction="#c" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #D80F4F;" text="C">
+           <font>
+               <Font size="25.0" />
+           </font>
+       </Button>
+       <Button id="f" layoutX="456.0" layoutY="405.0" mnemonicParsing="false" onAction="#f" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #D80F4F;" text="F">
+           <font>
+               <Font size="25.0" />
+           </font>
+       </Button>
+       <Line endX="163.5" endY="-9.0" layoutX="-90.0" layoutY="258.0" startX="139.0" startY="-9.0" stroke="#2ab4d3" strokeWidth="6.0" />
+       <Line endX="163.5" endY="-9.0" layoutX="-114.0" layoutY="259.0" startX="163.5" startY="238.0" stroke="#2ab4d3" strokeWidth="6.0" />
+       <Line endX="163.5" endY="-9.0" layoutX="-90.0" layoutY="512.0" startX="139.0" startY="-9.0" stroke="#2ab4d3" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="144.0" layoutY="258.0" startX="139.0" startY="-9.0" stroke="#2ab4d3" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="117.0" layoutY="259.0" startX="163.5" startY="238.0" stroke="#2ab4d3" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="141.0" layoutY="512.0" startX="139.0" startY="-9.0" stroke="#2ab4d3" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="313.0" layoutY="258.0" startX="139.0" startY="-9.0" stroke="#2ab4d3" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="286.0" layoutY="259.0" startX="163.5" startY="238.0" stroke="#2ab4d3" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="310.0" layoutY="512.0" startX="139.0" startY="-9.0" stroke="#2ab4d3" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="87.0" layoutY="258.0" startX="139.0" startY="-9.0" stroke="#2ab4d3" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="87.0" layoutY="259.0" startX="163.5" startY="238.0" stroke="#2ab4d3" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="87.0" layoutY="512.0" startX="139.0" startY="-9.0" stroke="#2ab4d3" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="211.0" layoutY="258.0" startX="139.0" startY="-9.0" stroke="#2ab4d3" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="211.0" layoutY="259.0" startX="163.5" startY="238.0" stroke="#2ab4d3" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="211.0" layoutY="512.0" startX="139.0" startY="-9.0" stroke="#2ab4d3" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="384.0" layoutY="258.0" startX="139.0" startY="-9.0" stroke="#2ab4d3" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="384.0" layoutY="259.0" startX="163.5" startY="238.0" stroke="#2ab4d3" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="384.0" layoutY="512.0" startX="139.0" startY="-9.0" stroke="#2ab4d3" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="262.0" layoutY="375.0" startX="139.0" startY="-9.0" stroke="#fcdc40" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="263.0" layoutY="395.0" startX="139.0" startY="-9.0" stroke="#fcdc40" strokeWidth="6.0" />
+
+
+   </children>
+</AnchorPane>

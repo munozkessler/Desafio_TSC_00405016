@@ -7,15 +7,15 @@
 
 <AnchorPane prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainMenu">
    <children>
-      <Label depthTest="DISABLE" layoutX="202.0" layoutY="82.0" text="DOMINIO" textAlignment="CENTER">
+      <Label depthTest="DISABLE" layoutX="66.0" layoutY="89.0" text="CONDICIONES DE CONTORNO" textAlignment="CENTER">
          <font>
             <Font size="34.0" />
          </font>
       </Label>
 
-       <ImageView fitHeight="490.0" fitWidth="473.0" layoutX="64.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
+       <ImageView fitHeight="490.0" fitWidth="473.0" layoutX="64.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
            <image>
-               <Image url="@../img/domain.JPG" />
+               <Image url="@../img/condiciones.JPG" />
            </image></ImageView>
 
       <Label depthTest="DISABLE" layoutX="16.0" layoutY="781.0" prefHeight="0.0" prefWidth="261.0" text="MARIO MUÑOZ">
@@ -29,6 +29,11 @@
                <Font name="bauhaus 93" size="21.0" />
            </font>
        </Button>
+      <Label layoutX="133.0" layoutY="649.0" text="Aqui aplicamos Dirichlet = 4 y Neumann = 5">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
 
 
    </children>

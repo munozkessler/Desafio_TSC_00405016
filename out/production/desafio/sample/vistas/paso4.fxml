@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainMenu">
+<AnchorPane prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MEF">
    <children>
-      <Label depthTest="DISABLE" layoutX="202.0" layoutY="82.0" text="DOMINIO" textAlignment="CENTER">
+      <Label depthTest="DISABLE" layoutX="244.0" layoutY="83.0" text="PASO 4" textAlignment="CENTER">
          <font>
             <Font size="34.0" />
          </font>
@@ -15,7 +17,7 @@
 
        <ImageView fitHeight="490.0" fitWidth="473.0" layoutX="64.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
            <image>
-               <Image url="@../img/domain.JPG" />
+               <Image url="@../img/paso4.jpg" />
            </image></ImageView>
 
       <Label depthTest="DISABLE" layoutX="16.0" layoutY="781.0" prefHeight="0.0" prefWidth="261.0" text="MARIO MUÑOZ">
