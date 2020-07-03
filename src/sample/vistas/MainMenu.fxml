@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainMenu">
+   <children>
+       <Button id="btn_domain" defaultButton="true" layoutX="193.0" layoutY="133.0" mnemonicParsing="false" onAction="#btn_domain" prefHeight="58.0" prefWidth="214.0" style="-fx-background-color: #D80F4F;" text="DOMINIO" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+           <font>
+               <Font name="bauhaus 93" size="21.0" />
+           </font>
+       </Button>
+      <Label depthTest="DISABLE" layoutX="146.0" layoutY="83.0" text="PROYECTO DESAFIO">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+
+       <Button id="btn_malla" defaultButton="true" layoutX="193.0" layoutY="205.0" mnemonicParsing="false" onAction="#btn_malla" prefHeight="58.0" prefWidth="214.0" style="-fx-background-color: #D80F4F;" text="MALLA" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+           <font>
+               <Font name="bauhaus 93" size="21.0" />
+           </font>
+       </Button>
+
+       <Button id="btn_conectividades" defaultButton="true" layoutX="193.0" layoutY="274.0" mnemonicParsing="false" onAction="#btn_conectividades" prefHeight="70.0" prefWidth="214.0" style="-fx-background-color: #D80F4F;" text="TABLA DE CONECTIVIDADES" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+           <font>
+               <Font name="bauhaus 93" size="21.0" />
+           </font>
+       </Button>
+
+       <Button id="btn_model" defaultButton="true" layoutX="193.0" layoutY="355.0" mnemonicParsing="false" onAction="#btn_model" prefHeight="58.0" prefWidth="214.0" style="-fx-background-color: #D80F4F;" text="MODELO" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+           <font>
+               <Font name="bauhaus 93" size="21.0" />
+           </font>
+       </Button>
+
+       <Button id="btn_mef" defaultButton="true" layoutX="193.0" layoutY="427.0" mnemonicParsing="false" onAction="#btn_mef" prefHeight="58.0" prefWidth="214.0" style="-fx-background-color: #D80F4F;" text="MEF" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+           <font>
+               <Font name="bauhaus 93" size="21.0" />
+           </font>
+       </Button>
+
+       <Button id="btn_ensamblaje" defaultButton="true" layoutX="193.0" layoutY="496.0" mnemonicParsing="false" onAction="#btn_ensamblaje" prefHeight="58.0" prefWidth="214.0" style="-fx-background-color: #D80F4F;" text="ENSAMBLAJE" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+           <font>
+               <Font name="bauhaus 93" size="21.0" />
+           </font>
+       </Button>
+
+       <Button id="btn_contorno" defaultButton="true" layoutX="193.0" layoutY="567.0" mnemonicParsing="false" onAction="#btn_contorno" prefHeight="70.0" prefWidth="214.0" style="-fx-background-color: #D80F4F;" text="CONDICIONES DE CONTORNO" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+           <font>
+               <Font name="bauhaus 93" size="21.0" />
+           </font>
+       </Button>
+
+       <Button id="btn_componentes" defaultButton="true" layoutX="193.0" layoutY="648.0" mnemonicParsing="false" onAction="#btn_componentes" prefHeight="78.0" prefWidth="214.0" style="-fx-background-color: #D80F4F;" text="COMPONENTES DE LAS MATRICES" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+           <font>
+               <Font name="bauhaus 93" size="21.0" />
+           </font>
+       </Button>
+      <Label depthTest="DISABLE" layoutX="16.0" layoutY="781.0" prefHeight="0.0" prefWidth="261.0" text="MARIO MUÑOZ">
+         <font>
+            <Font size="7.0" />
+         </font>
+      </Label>
+
+
+   </children>
+</AnchorPane>
