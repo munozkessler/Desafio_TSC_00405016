@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MEF">
+   <children>
+      <Label depthTest="DISABLE" layoutX="62.0" layoutY="99.0" text="PASOS DE APLICACION DE MEF" textAlignment="CENTER">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+
+
+
+      <Label depthTest="DISABLE" layoutX="16.0" layoutY="781.0" prefHeight="0.0" prefWidth="261.0" text="MARIO MUÑOZ">
+         <font>
+            <Font size="7.0" />
+         </font>
+      </Label>
+
+       <Button id="btn_paso1" defaultButton="true" layoutX="238.0" layoutY="731.0" mnemonicParsing="false" onAction="#btn_back" prefHeight="50.0" prefWidth="125.0" style="-fx-background-color: #D80F4F;" text="REGRESAR" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+           <font>
+               <Font name="bauhaus 93" size="21.0" />
+           </font>
+       </Button>
+      <Button id="btn_paso2" defaultButton="true" layoutX="62.0" layoutY="209.0" mnemonicParsing="false" onAction="#btn_paso1" prefHeight="50.0" prefWidth="125.0" style="-fx-background-color: #D80F4F;" text="1" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="bauhaus 93" size="21.0" />
+         </font>
+      </Button>
+      <Button id="btn_paso3" defaultButton="true" layoutX="238.0" layoutY="209.0" mnemonicParsing="false" onAction="#btn_paso2" prefHeight="50.0" prefWidth="125.0" style="-fx-background-color: #D80F4F;" text="2" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="bauhaus 93" size="21.0" />
+         </font>
+      </Button>
+      <Button id="btn_paso4" defaultButton="true" layoutX="414.0" layoutY="209.0" mnemonicParsing="false" onAction="#btn_paso3" prefHeight="50.0" prefWidth="125.0" style="-fx-background-color: #D80F4F;" text="3" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="bauhaus 93" size="21.0" />
+         </font>
+      </Button>
+      <Button id="btn_paso5" defaultButton="true" layoutX="62.0" layoutY="308.0" mnemonicParsing="false" onAction="#btn_paso4" prefHeight="50.0" prefWidth="125.0" style="-fx-background-color: #D80F4F;" text="4" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="bauhaus 93" size="21.0" />
+         </font>
+      </Button>
+      <Button id="btn_paso6" defaultButton="true" layoutX="238.0" layoutY="308.0" mnemonicParsing="false" onAction="#btn_paso5" prefHeight="50.0" prefWidth="125.0" style="-fx-background-color: #D80F4F;" text="5" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="bauhaus 93" size="21.0" />
+         </font>
+      </Button>
+      <Button id="btn_back" defaultButton="true" layoutX="414.0" layoutY="308.0" mnemonicParsing="false" onAction="#btn_paso6" prefHeight="50.0" prefWidth="125.0" style="-fx-background-color: #D80F4F;" text="6" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="bauhaus 93" size="21.0" />
+         </font>
+      </Button>
+
+
+   </children>
+</AnchorPane>

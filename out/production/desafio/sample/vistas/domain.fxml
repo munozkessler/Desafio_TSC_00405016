@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
 <AnchorPane prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainMenu">
    <children>
       <Label depthTest="DISABLE" layoutX="202.0" layoutY="82.0" text="DOMINIO" textAlignment="CENTER">
@@ -14,7 +13,7 @@
          </font>
       </Label>
 
-       <ImageView fitHeight="547.0" fitWidth="798.0" layoutX="154.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+       <ImageView fitHeight="490.0" fitWidth="473.0" layoutX="64.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
            <image>
                <Image url="@../img/domain.jpg" />
            </image></ImageView>
@@ -24,6 +23,12 @@
             <Font size="7.0" />
          </font>
       </Label>
+
+       <Button id="btn_back" defaultButton="true" layoutX="238.0" layoutY="731.0" mnemonicParsing="false" onAction="#btn_back" prefHeight="50.0" prefWidth="125.0" style="-fx-background-color: #D80F4F;" text="REGRESAR" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+           <font>
+               <Font name="bauhaus 93" size="21.0" />
+           </font>
+       </Button>
 
 
    </children>

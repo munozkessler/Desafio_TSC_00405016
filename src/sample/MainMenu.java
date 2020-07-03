@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 
 public class MainMenu {
 
-    public void btn_back(MouseEvent event) {
+    public void btn_back(ActionEvent event) {
         Node source = (Node) event.getSource();
         Stage stage = (Stage) source.getScene().getWindow();
         stage.close();
